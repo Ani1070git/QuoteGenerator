@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-box {
+    background: #222831;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.quote-box h2 {
+    font-size: 28px;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+}
+
+.quote-box blockquote {
+    font-size: 20px;
+    font-style: italic;
+    color: #dddddd;
+    margin-bottom: 15px;
+    min-height: 80px;
+}
+
+.quote-box span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    margin-top: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background: #4ecca3;
+    color: #222831;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers text horizontally */
+    gap: 10px;
+    text-align: center; /* Ensures proper alignment of text */
+}
+
+.button-container button:hover {
+    background: #40a176;
+}
+
+.button-container button:nth-child(2) {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.button-container button:nth-child(2):hover {
+    background: #187ccf;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

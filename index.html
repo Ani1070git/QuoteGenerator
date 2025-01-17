@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quote of the Day</h2>
+        <blockquote id="quote">Click "New Quote" to begin!</blockquote>
+        <span id="author"></span>
+
+        <div class="button-container">
+            <button onclick="getQuote()">
+                <i class="fas fa-redo"></i> New Quote
+            </button>
+            <button onclick="tweet()">
+                <i class="fab fa-twitter"></i> Tweet
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
