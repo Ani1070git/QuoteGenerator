@@ -16,3 +16,6 @@ JavaScript: To add interactivity and handle the random selection of quotes.
 # How It Works
 When the user clicks the "New Quote" button, a random quote is selected from a predefined list of quotes stored locally in the JavaScript file.
 The selected quote and the corresponding author's name are displayed on the screen. And u can also tweet the quote with the help of "tweet" button.
+
+# Live Demo
+Click here to see the live demo of the project : [here](https://ani1070git.github.io/QuoteGenerator/)
